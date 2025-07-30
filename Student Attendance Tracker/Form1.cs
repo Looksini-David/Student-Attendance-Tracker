@@ -47,8 +47,27 @@ namespace Student_Attendance_Tracker
             }
 
             lstAttendance.Items.Add($"{name} - {status}");
+            lstAttendance.Items.Add($"{name} - {status}");
             txtStudentName.Clear();
             cmbStatus.SelectedIndex = -1;
         }
-    }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            txtStudentName.Clear();
+            cmbStatus.SelectedIndex = -1;
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (lstAttendance.SelectedIndex != -1)
+            {
+                lstAttendance.Items.RemoveAt(lstAttendance.SelectedIndex);
+            }
+            else
+            {
+                MessageBox.Show("Please select a record to delete.", "Delete Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+        }
 }

@@ -34,6 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtStudentName = new System.Windows.Forms.TextBox();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstAttendance
@@ -47,7 +49,7 @@
             // 
             // btnAddRecord
             // 
-            this.btnAddRecord.Location = new System.Drawing.Point(520, 216);
+            this.btnAddRecord.Location = new System.Drawing.Point(97, 222);
             this.btnAddRecord.Name = "btnAddRecord";
             this.btnAddRecord.Size = new System.Drawing.Size(203, 46);
             this.btnAddRecord.TabIndex = 1;
@@ -94,11 +96,33 @@
             this.cmbStatus.Size = new System.Drawing.Size(230, 24);
             this.cmbStatus.TabIndex = 5;
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(306, 222);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(203, 46);
+            this.btnClear.TabIndex = 6;
+            this.btnClear.Text = "Clear Record";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(536, 222);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(203, 46);
+            this.btnDelete.TabIndex = 7;
+            this.btnDelete.Text = "Delete Record";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.cmbStatus);
             this.Controls.Add(this.txtStudentName);
             this.Controls.Add(this.label2);
@@ -121,6 +145,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtStudentName;
         private System.Windows.Forms.ComboBox cmbStatus;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnDelete;
     }
 }
 
