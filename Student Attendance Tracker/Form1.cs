@@ -24,12 +24,31 @@ namespace Student_Attendance_Tracker
 
         private void BtnAddRecord_Click(object sender, EventArgs e)
         {
-            string name = txtStudentName.Text;
+            string name = txtStudentName.Text.Trim();
             string status = cmbStatus.Text;
-            lstAttendance.Items.Add(name + " - " + status);
+
+            // Validation
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                MessageBox.Show("Student name cannot be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!System.Text.RegularExpressions.Regex.IsMatch(name, @"^[A-Za-z\s]+$"))
+            {
+                MessageBox.Show("Student name must only contain letters.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(status))
+            {
+                MessageBox.Show("Please select an attendance status.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            lstAttendance.Items.Add($"{name} - {status}");
             txtStudentName.Clear();
             cmbStatus.SelectedIndex = -1;
-
         }
     }
 }
