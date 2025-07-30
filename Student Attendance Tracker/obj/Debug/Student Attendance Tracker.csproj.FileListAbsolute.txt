@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\bin\Debug\Student Attendance Tracker.exe.config
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\bin\Debug\Student Attendance Tracker.exe
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\bin\Debug\Student Attendance Tracker.pdb
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student Attendance Tracker.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student_Attendance_Tracker.Form1.resources
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student_Attendance_Tracker.Properties.Resources.resources
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student Attendance Tracker.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student Attendance Tracker.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student Attendance Tracker.exe
+C:\Users\lenovo\Desktop\SCM-Practicals\Student Attendance Tracker\Student Attendance Tracker\Student Attendance Tracker\obj\Debug\Student Attendance Tracker.pdb
